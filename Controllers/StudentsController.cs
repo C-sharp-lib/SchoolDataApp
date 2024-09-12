@@ -24,13 +24,13 @@ namespace SchoolMVCApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddStudent([Bind("StudentId,FirstName,LastName")] Students student)
+        public async Task<IActionResult> AddStudent(Students student)
         {
             if (ModelState.IsValid) 
             { 
                 _context.Students.Add(student);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(student);
         }
@@ -46,7 +46,7 @@ namespace SchoolMVCApp.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditStudent(int id, [Bind("StudentId,FirstName,LastName")] Students student) 
+        public async Task<IActionResult> EditStudent(int id, Students student) 
         {
             if (id != student.StudentId)
             {

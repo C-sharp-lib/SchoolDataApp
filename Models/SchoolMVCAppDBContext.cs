@@ -10,20 +10,17 @@ namespace SchoolMVCApp.Models
         public DbSet<Students> Students { get; set; }
         public DbSet<Classes> Classes { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<StudentClasses> StudentClasses { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Students>()
-            .HasMany(s => s.Classes)
-            .WithMany(c => c.Students)
-            .UsingEntity<Dictionary<string, object>>(
-                "StudentClasses", // This is the join table name
-                j => j.HasOne<Classes>().WithMany().HasForeignKey("ClassId"),
-                j => j.HasOne<Students>().WithMany().HasForeignKey("StudentId"));
-            modelBuilder.Entity<Teacher>()
-            .HasMany(t => t.Classes)
-            .WithOne(c => c.Teacher)
-            .HasForeignKey(c => c.Teacher);
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Teacher>().HasKey(t => t.TeacherId);
+            modelBuilder.Entity<Students>().HasKey(s => s.StudentId);
+            modelBuilder.Entity<Classes>().HasKey(c => c.ClassId);
+            modelBuilder.Entity<StudentClasses>().HasKey(sc => new { sc.StudentId, sc.ClassId });
+            modelBuilder.Entity<StudentClasses>().HasOne(sc => sc.Student).WithMany(s => s.StudentClasses).HasForeignKey(sc => sc.StudentId);
+            modelBuilder.Entity<StudentClasses>().HasOne(sc => sc.Clas).WithMany(c => c.StudentClasses).HasForeignKey(sc => sc.ClassId);
+            modelBuilder.Entity<Teacher>().HasMany(t => t.Clas).WithOne(c => c.Teacher).HasForeignKey(c => c.TeacherId);
         }
     }
 }

@@ -67,3 +67,4 @@ C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\School
 C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\SchoolMVCApp\obj\Debug\net6.0\SchoolMVCApp.pdb
 C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\SchoolMVCApp\obj\Debug\net6.0\SchoolMVCApp.genruntimeconfig.cache
 C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\SchoolMVCApp\obj\Debug\net6.0\ref\SchoolMVCApp.dll
+C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\SchoolMVCApp\obj\Debug\net6.0\SchoolMVCApp.sourcelink.json

@@ -8,10 +8,10 @@
         public string Description { get; set; }
         public DateTime DateStart { get; set; }
         public DateTime DateEnd { get; set; }
-
+        public int TeacherId { get; set; }
         public Teacher Teacher { get; set; }
 
-        public ICollection<Students> Students { get; set; }
+        public ICollection<StudentClasses> StudentClasses { get; set; }
         
     }
 }

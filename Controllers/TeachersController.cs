@@ -36,7 +36,7 @@ namespace SchoolMVCApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddTeacher([Bind("TeacherId,FirstName,LastName")] Teacher teacher) 
+        public async Task<IActionResult> AddTeacher(Teacher teacher) 
         {
             if (ModelState.IsValid) 
             { 
@@ -47,7 +47,7 @@ namespace SchoolMVCApp.Controllers
             return View(teacher);
         }
 
-        public async Task<IActionResult> EditTeacher(int id, [Bind("TeacherId,FirstName,LastName")] Teacher teacher) 
+        public async Task<IActionResult> EditTeacher(int id, Teacher teacher) 
         {
             if (id != teacher.TeacherId)
             {

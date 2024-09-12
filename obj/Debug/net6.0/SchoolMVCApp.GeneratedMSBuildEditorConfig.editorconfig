@@ -18,6 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\strad\OneDrive\Desktop\school\contemporary\practice\SchoolMVCApp\SchoolMVCApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/AddClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xBZGRDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/ClassDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDbGFzc0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/DeleteClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGVDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/DeleteClassConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGVDbGFzc0NvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/EditClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0Q2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +58,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQWRkU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/DeleteStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/DeleteStudentConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlU3R1ZGVudENvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/EditStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdFN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Students/StudentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcU3R1ZGVudERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/AddTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcQWRkVGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/DeleteTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGVsZXRlVGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/DeleteTeacherConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGVsZXRlVGVhY2hlckNvbmZpcm1lZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/EditTeacher.cshtml]
@@ -44,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/Teachers/TeacherDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcVGVhY2hlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/strad/OneDrive/Desktop/school/contemporary/practice/SchoolMVCApp/SchoolMVCApp/Views/_ViewImports.cshtml]
